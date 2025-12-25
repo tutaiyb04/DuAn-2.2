@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ======== Commons ======== */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ======== Header ========= */
+.header.fixed {
+  position: sticky;
+  top: -40px;
+  z-index: 1;
+}
+
+.header .head-content {
+  display: flex;
+  align-items: center;
+  padding: 52px 0;
+}
+
+.header .nav {
+  margin-left: 235px;
+}
+
+.header .nav-list {
+  display: flex;
+  gap: 39px;
+}
+
+.header .nav-list .link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #2f3a3b;
+}
+
+.header .nav-list .link:hover {
+  text-shadow: 1px 0 0 black;
+}
+
+.header .action {
+  margin-left: auto;
+}
+
+.header .action .cta-btn {
+  border: 1px solid transparent;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #494949;
+}
+
+.header .action .cta-btn:hover {
+  text-shadow: 1px 0 0 #1ebfc1;
+  color: #1ebfc1;
+  border: 1px solid #1ebfc1;
+  border-radius: 6px;
+}
