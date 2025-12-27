@@ -648,3 +648,32 @@ a {
   top: 258px;
   right: 601px;
 }
+
+/* ======== Get Started ======== */
+.cta-section {
+  margin-top: 130px;
+  padding: 76px 0 88px;
+  background: #def6f5;
+}
+
+.cta-section .cta-container {
+  display: flex;
+  align-items: center;
+}
+
+.cta-section .get-started {
+  margin-right: 410px;
+}
+
+.cta-section .get-started .head-cta {
+  font-size: 4.2rem;
+  font-weight: 700;
+  color: #070707;
+}
+
+.cta-section .get-started .desc-cta {
+  margin-top: 18px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #767e7e;
+}
