@@ -346,6 +346,9 @@ a {
 
 .featues-bottom .featues-group .head-info {
   margin-top: 26px;
+}
+
+.featues-bottom .featues-group .head-info a {
   font-size: 2rem;
   font-weight: 600;
   color: var(--secondary-color);
@@ -676,4 +679,77 @@ a {
   font-size: 1.8rem;
   font-weight: 400;
   color: #767e7e;
+}
+
+/* ========= Footer ======== */
+.footer {
+  margin-top: 65px;
+  padding: 65px 0 50px;
+}
+
+.footer .row {
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.footer .row .column:nth-child(1) {
+  width: 23%;
+}
+
+.footer .row .column:nth-child(2) {
+  width: 20%;
+}
+
+.footer .row .column:nth-child(3) {
+  width: 22%;
+}
+
+.footer .row .column:nth-child(4) {
+  width: 23%;
+}
+
+.footer .row .column:nth-child(5) {
+  width: 12%;
+}
+
+.footer .row .heading {
+  padding-bottom: 26px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+.footer .row .column:last-child .heading {
+  padding-bottom: 18px;
+}
+
+.footer .list li {
+  padding-bottom: 18px;
+}
+
+.footer .list li:last-child {
+  padding-bottom: 0;
+}
+
+.footer .list li a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #535353;
+}
+
+.footer .socials .list a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.footer .socials .list a span {
+  line-height: 24px;
+}
+
+.footer .copyright .desc {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: #b0b5b4;
 }
